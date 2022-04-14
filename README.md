@@ -6,4 +6,4 @@
 python -m pip install -r requirements.txt
 python ftx.py
 ```
-
+ваш любимый говнокодер - https://t.me/+loqKJcoNsqoxMzIy
