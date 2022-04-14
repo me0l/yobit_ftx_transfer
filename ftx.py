@@ -64,7 +64,7 @@ def main():
     addresses = open(address_path, "r+").read().strip().split("\n")
 
     for address in addresses:
-        print(request_withdrawal(api_key, secret_key, coin, int(size), address))
+        print(request_withdrawal(api_key, secret_key, coin, int(size), address, method))
         sleep(1)
 
 
